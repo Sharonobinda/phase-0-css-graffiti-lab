@@ -1,1 +1,17 @@
+/* Override the default styles for the graffiti tags */
+
+/* Hide the graffiti tags with class "tag-1" */
+#wall .tag-1, #wall #tag-2, #wall .parent:nth-child(3) #tag-3, #wall .parent:nth-child(4) #tag-4, #wall .parent:nth-child(5) #tag-5, #wall .parent:nth-child(6) .slick, #wall .parent:nth-child(7) .slick {
+    display: none;
+  }
+  
+  /* Hide the graffiti tag with id "tag-6" */
+  #wall .parent:nth-child(6) .slick #tag-6 {
+    display: none;
+  }
+  
+  /* Hide the graffiti tag with id "tag-7" */
+  #wall .parent:nth-child(7) .slick #tag-7 {
+    display: none;
+  }
 /* write your override styles here */
